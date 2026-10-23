@@ -1,0 +1,32 @@
+[
+  {
+    "path": "studies/pjm-2030/tools/tier_logic.py",
+    "source": "GenX-ATB-tier-preparation-2026-10-19/tier_logic.py",
+    "sha256": "20ff904ba89af01c214c851e9a5b14f4759ec96dce3cf91a41572687a3ac6db7",
+    "status": "original preparation script; MIT license; see RIGHTS.md"
+  },
+  {
+    "path": "studies/pjm-2030/tools/test_tiers.py",
+    "source": "GenX-ATB-tier-preparation-2026-10-19/test_tiers.py",
+    "sha256": "df1af7bdbd7997f28e3339e39d12c1891ad305b04fab8a4aec68da191aa9fcc6",
+    "status": "original preparation script; MIT license; see RIGHTS.md"
+  },
+  {
+    "path": "studies/pjm-2030/tools/xlsx_read.py",
+    "source": "GenX-2030-Moderate-prepared/xlsx_read.py",
+    "sha256": "b536fee54cc3b69f1df8195595aa9b5e175d4e2ae707ef6a4564688663ea8bf0",
+    "status": "original preparation script; MIT license; see RIGHTS.md"
+  },
+  {
+    "path": "studies/pjm-2030/config/scenario-source-snapshot.json",
+    "source": "GenX-2030-Moderate-prepared/approved-generic-siting-2030-NO-SOLVE/configuration.json",
+    "source_sha256": "d526a5a7716b7c6d363cffba3669d70c0a1af56a759f21b375081c05e3fd29de",
+    "status": "JSON reformatted; historical configuration, not solver status"
+  },
+  {
+    "path": "studies/pjm-2030/environment/Manifest.provenance.toml",
+    "source": "local GenX 0.4.5 environment Manifest.toml",
+    "source_sha256": "8028d0cee669977dd066eabb27664f966444cff1d507271c4f99ef190a33b5a7",
+    "status": "generated dependency provenance; not a standalone runnable project"
+  }
+]

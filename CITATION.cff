@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Cite this preparation package using these metadata. Cite upstream tools and datasets separately."
+title: "Energy modeling lab: hypothetical 2030 PJM study"
+type: software
+authors:
+  - family-names: Nichols
+    given-names: Christopher John
+abstract: "Personal study preparation utilities and provenance for a hypothetical nine-zone PJM comparison. No validated annual baseline."
+keywords:
+  - energy modeling
+  - PJM
+  - GenX
+  - reproducibility
+repository-code: "https://github.com/chrisnichols-max/energy-modeling-lab"

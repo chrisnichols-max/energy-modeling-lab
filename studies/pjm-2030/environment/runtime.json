@@ -1,0 +1,13 @@
+{
+  "julia": "1.9.4",
+  "genx": "0.4.5",
+  "genx_tag": "v0.4.5",
+  "genx_tag_commit_reported_by_parent": "c1000b9ce47d9c2bb616bf6914b7664f1bced6d0",
+  "highs_jl": "1.20.1",
+  "highs_native": "1.12.0",
+  "highs_jll": "1.12.0+0",
+  "genx_project_sha256": "8f991abb4d8a7d482bd6cb2e1f6eb7a8ec3c20467b1350f9188b4290b548e5d5",
+  "genx_license_sha256": "f45bdfcdb97de639956d7e8ffef5aad10a9cb293ce67d5dbc60a15800df73087",
+  "manifest_sha256": "8028d0cee669977dd066eabb27664f966444cff1d507271c4f99ef190a33b5a7",
+  "note": "Version fields verified from local Project/Manifest; tag commit supplied by parent, not independently reconciled to local source tree. No Julia environment instantiated in staging."
+}

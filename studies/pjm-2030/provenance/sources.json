@@ -1,0 +1,35 @@
+[
+  {
+    "id": "icarus-base",
+    "title": "ICARUS PJM Dataset: GenX_PJM_9zones_Base.zip",
+    "url": "https://raw.githubusercontent.com/HopkinsICARUS/ICARUS-PJM-Dataset/main/data/output/GenX_PJM_9zones_Base.zip",
+    "local_sha256": "6d0b3022fc589a280b33e53a90f1d2a77a03c38ac99be1e65f5eaf7b2b7945b1",
+    "bytes": 4829822,
+    "version_status": "Local START_HERE points to moving main. Exact archive commit unresolved; do not assume geography commit applies.",
+    "redistributed": false
+  },
+  {
+    "id": "icarus-geography",
+    "title": "IPM Regions_State_Utilities.xlsx",
+    "url": "https://github.com/HopkinsICARUS/ICARUS-PJM-Dataset/blob/0cb6a1af86e2bdfc1d160f44b6e4a7518ca3ffe3/data/output/IPM%20Regions_State_Utilities.xlsx",
+    "local_sha256": "8713de9dbf4202aa4bd1dcfd8b814c1ab2d7d8e99b6b23a4c903c0322c0d400c",
+    "version_status": "Commit recorded in local finalize_approved.py and geography checkpoint; local bytes hashed, not fetched for byte comparison.",
+    "redistributed": false
+  },
+  {
+    "id": "atb-2025",
+    "title": "2025 Annual Technology Baseline electricity workbook",
+    "url": "https://atb.nrel.gov/electricity/2025/data",
+    "catalog_url": "https://data.openei.org/submissions/8759",
+    "local_sha256": "fa0a2b95efb85ba448467d34054db6770d274db0076ae42eda87d69827155c44",
+    "bytes": 8509204,
+    "edition": 2025,
+    "planning_year": 2030,
+    "scenario": "Moderate",
+    "cost_drivers": "R&D",
+    "financial_case": "Without Tax Credits",
+    "dollar_year": 2023,
+    "version_status": "Local renamed workbook; catalog lists 2025_v1_Workbook_08-27-2026.xlsx. Exact download-to-catalog byte match remains to verify.",
+    "redistributed": false
+  }
+]

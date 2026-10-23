@@ -1,0 +1,17 @@
+# Input provenance and license review
+
+Reviewed 2026-10-23. No raw datasets or upstream model routines are included. A public download is not itself a redistribution license.
+
+| Component | Actual evidence and identity | Terms / remaining constraint | First release decision |
+| --- | --- | --- | --- |
+| ICARUS PJM Base | Local `PJM-Reduced/original/GenX_PJM_9zones_Base.zip`, 4,829,822 bytes; local START_HERE points to upstream main; SHA-256 in sources.json | Local UPSTREAM_LICENSE and [commit license](https://raw.githubusercontent.com/HopkinsICARUS/ICARUS-PJM-Dataset/0cb6a1af86e2bdfc1d160f44b6e4a7518ca3ffe3/LICENSE) distinguish CC BY 4.0 data and MIT software. File-specific holders/notices must be checked. Exact archive commit unresolved. | Links/hash only |
+| ICARUS geography | Local finalize_approved.py records [commit 0cb6a1a](https://github.com/HopkinsICARUS/ICARUS-PJM-Dataset/blob/0cb6a1af86e2bdfc1d160f44b6e4a7518ca3ffe3/data/output/IPM%20Regions_State_Utilities.xlsx) | Same split license; verify bytes and attribution before reuse. Geography pin does not prove Base archive pin. | Links/hash only |
+| ICARUS GenX conversion | Local UPSTREAM_README says adapted from GenX three-zone example, retaining defaults where data absent | Review GenX-derived portions separately; ICARUS MIT software label cannot erase upstream obligations | Omit conversion source and data |
+| GenX 0.4.5 | Local Project version and LICENSE; [v0.4.5 LICENSE](https://raw.githubusercontent.com/GenXProject/GenX/v0.4.5/LICENSE) | GNU GPL version 2 text. Audit copied/modified routines and preserve corresponding notices/source obligations. Do not blanket-license MIT. | Dependency reference and generated lock only |
+| ATB 2025 electricity | Local ATB-2025.xlsx, 8,509,204 bytes; 2030 Moderate/R&D/Without Tax Credits; 2023 dollars | [Official OEDI record](https://data.openei.org/submissions/8759) links CC BY 4.0 and lists 2025_v1_Workbook_08-27-2026.xlsx. Local renamed workbook revision not yet byte-matched. | Links/hash only |
+| PJM 2026 forecast and 2030 hourly workbooks; preliminary ELCC | Local forecast workbooks and download receipts; [source landing page](https://www.pjm.com/library/reports-notices/load-forecast) | Exact redistribution permissions, versions, and derived-file attribution unresolved | Omit raw and derived inputs |
+| EPA IPM network, potential, hydro and performance inputs | Local EPA workbooks/PDFs and [platform documentation](https://www.epa.gov/power-sector-modeling/documentation-epas-power-sector-modeling-platform-v6-using-ipm-2023) | Verify each attachment and underlying third-party material; do not infer all rights from federal hosting | Omit raw and derived inputs |
+| USDA, EIA, DOE supplemental material | Local source directories and supplement review | Some candidates are historical or inactive; dependency membership and attachment-specific rights unresolved | Omit |
+| Original preparation utilities and new documentation | code-origins.json; three Python utilities identified in RIGHTS.md | Original Python scripts: MIT. Newly prepared prose: CC BY 4.0. These grants exclude upstream work and provenance records. | Included under the scoped grants in RIGHTS.md |
+
+For CC BY 4.0 material, retain creator/source/license attribution and mark changes; [license terms](https://creativecommons.org/licenses/by/4.0/) do not imply endorsement. Cite GenX and ICARUS separately from this personal study. Any later data release needs its own attribution/change record.

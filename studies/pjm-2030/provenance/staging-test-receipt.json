@@ -1,0 +1,20 @@
+{
+  "scope": "Staged Python preparation tests only; no model construction, optimizer, or network",
+  "date": "2026-10-23",
+  "python": "3.12.14",
+  "command": "python -B -m unittest discover -s studies/pjm-2030/tools -p test_tiers.py -v",
+  "tests": 8,
+  "failures": 0,
+  "errors": 0,
+  "exit_code": 0,
+  "tested_sha256": {
+    "test_tiers.py": "df1af7bdbd7997f28e3339e39d12c1891ad305b04fab8a4aec68da191aa9fcc6",
+    "tier_logic.py": "20ff904ba89af01c214c851e9a5b14f4759ec96dce3cf91a41572687a3ac6db7"
+  },
+  "not_tested": [
+    "xlsx_read.py (reviewed statically)",
+    "GenX/Julia integration",
+    "annual model",
+    "solver feasibility or optimality"
+  ]
+}

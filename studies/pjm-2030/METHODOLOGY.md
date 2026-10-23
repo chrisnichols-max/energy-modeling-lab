@@ -1,0 +1,13 @@
+# Methodology and limitations
+
+This is a hypothetical technology comparison using 2030 cost assumptions, not a commissioning forecast. The current generic-siting case has nine zones, 798 resources (211 new-build candidates), and three 8,760-hour chronological demand cases. The scenario snapshot is historical build metadata; its embedded validation claims must not be interpreted as a newly verified scientific result.
+
+ATB 2025 supplies Moderate, R&D, Without Tax Credits assumptions in 2023 dollars; the snapshot specifies 30-year capital recovery. Costs escalate 10% for each additional 20 GW global technology-pool block. Escalation applies to capital, not fuel or fixed/variable O&M. Lithium-ion durations share a power-capacity pool. Marginal blocks are incremental, not retroactive.
+
+Continuous, single-stage, no-commitment modeling enables compact tier allocations. Exact aggregation and projection arguments depend on identical physical profiles and coefficients; they do not transfer automatically to integer commitment, heterogeneous outages, or project-specific rules. The solar capital suffix recurrence retains 207 tiers; algebraic equivalence alone does not establish numerical solver reliability.
+
+Generic thermal and battery opportunities exist in all zones without physical siting ceilings. Finite economic tier prefixes use an analytical feasible-cost bound, not actual supply potential. They restrict some expensive feasible allocations; any optimal-objective preservation claim depends on the witness and model assumptions. Renewable potentials remain source-dependent. New petroleum replacement requires verified eligibility, wood remains inactive pending supported geography and delivered cost, and pumped storage requires physical sites.
+
+Regional transport limits and joint interfaces are simplified. Local land, permitting, interconnection queues, and fuel delivery are omitted. Availability uses deterministic matches or labeled proxies. Hydro seasonal limits are historical proxies. Indicative 2030/31 accreditation is preliminary and nonbinding; central solar credit is 7%, with an 8% sensitivity. These choices are not reliability certification.
+
+The upstream GenX-formatted ICARUS case README records retained GenX default investment assumptions, EPA base demand, default full thermal availability, and one substituted solar profile. Later scenario transformations must be traced before any baseline comparison. The original 2,417-resource archive and the older 677-resource representative-period reduction are distinct from the current 798-resource annual case.
